@@ -1,0 +1,150 @@
+.home-body-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #1f1f33, #141423);
+  padding: 30px;
+  color: #ffffff;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-main-heading {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.home-all-container {
+  display: flex;
+  gap: 30px;
+}
+
+.calender-container1 {
+  background-color: #1f1f33;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.helloMoto {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.emoji-ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.emoji-li {
+  transition: transform 0.2s ease;
+}
+
+.emoji-li:hover {
+  transform: translateY(-4px);
+}
+
+.emoji-button {
+  background: linear-gradient(145deg, #23233a, #1c1c2e);
+  border: none;
+  border-radius: 16px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.emoji-button:hover {
+  box-shadow: 0 10px 30px rgba(255, 201, 74, 0.4);
+}
+
+.activeEmojiButton {
+  border: 2px solid #ffc94a;
+  box-shadow: 0 0 25px rgba(255, 201, 74, 0.7);
+  transform: scale(1.05);
+}
+
+.emoji-img {
+  width: 36px;
+  height: 36px;
+  margin-top: 6px;
+  transition: transform 0.3s ease;
+}
+
+.activeEmoji {
+  transform: scale(1.2) rotate(6deg);
+}
+
+.emoji-para {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.activeEmojiPara {
+  color: #ffc94a;
+  font-weight: bold;
+}
+
+.select-container {
+  background-color: #1f1f33;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.emoji-select,
+.day-select {
+  background-color: #2a2a40;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.emoji-select:hover,
+.day-select:hover {
+  background-color: #343457;
+}
+
+.name-day-count {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffc94a;
+  animation: popIn 0.4s ease-in-out;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
