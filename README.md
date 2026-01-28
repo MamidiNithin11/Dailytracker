@@ -4,32 +4,6 @@ You will demonstrate your skills by creating an app that will fetch data from an
 
 This is an individual assessment. All work must be your own. You can request for the feedback after your project submission in the discussions.
 
-### Prerequisites
-
-#### UI Prerequisites
-
-<details>
-<summary>Click to view</summary>
-
-- What is Figma?
-  - Figma is a vector graphics editor and prototyping tool which is primarily web-based. You can check more info on the <a href="https://www.figma.com/" target="_blank">website</a>
-- Create a Free account in Figma.
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=hrHL2VLMl7g&t=37s" target="_blank">this</a> video to create a free Figma account. Watch the video upto **00:50**
-- How to Check CSS in Figma?
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=B242nuM3y2s" target="_blank">this</a> video to check CSS in a Figma screen. Watch the video upto **02:45**.
-- Export Images in Figma screen
-
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=NpzL1MONwaw" target="_blank">this</a> video to export images from a Figma screen.
-  - Click on the Export button to get Export options as shown in the below image.
-
-  <div style="text-align:center;margin:10px 0px 0px 45px;width:200px;">
-    <img src="https://assets.ccbp.in/frontend/react-js/figma-export-option.png" />
-  </div>
-
-- Upload your exported images from Figma to Cloudinary and get image URLs from Cloudinary. Refer <a href="https://learning.ccbp.in/projects/course?c_id=fe4c935d-3ad5-4bb8-a1a5-9b045ae70010&s_id=2f72d6fe-09a7-4c0a-b0db-196740c853a0&t_id=6535e48d-fb4e-45c4-9654-3da423c79e26" target="_blank">this</a> session for better understanding.
-
-</details>
-
 #### Design Files
 
 <details>
@@ -267,15 +241,3 @@ Returns a response based on the credentials provided
 
 <br/>
 </details>
-
-### Project Submission Instructions
-
-- For Mini Projects, you can submit the test cases at your own pace. But we suggest you to submit the code to know the percentage of completion through test cases and that score will be considered for your interviews.
-
-- Also it's important to publish your code frequently using `Step - 4` in the Instructions tab.
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
