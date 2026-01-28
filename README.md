@@ -4,15 +4,6 @@ You will demonstrate your skills by creating an app that will fetch data from an
 
 This is an individual assessment. All work must be your own. You can request for the feedback after your project submission in the discussions.
 
-#### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- You can check the **Design Files** for different devices <a href="https://www.figma.com/file/jVLTUaosvGC06wdUeGh6HD/React_JS-Exams?type=design&node-id=2421-16369&mode=design&t=OdbsXjT8f6wH409K-0" target="_blank">here</a>.
-
-</details>
-
 ### Set Up Instructions
 
 <details>
@@ -241,3 +232,5 @@ Returns a response based on the credentials provided
 
 <br/>
 </details>
+
+Live : https://nithintracker.ccbp.tech
